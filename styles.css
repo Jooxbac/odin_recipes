@@ -1,3 +1,88 @@
-//* {
-    outline: 2px solid red;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+  "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  /* border: 1px solid red; */
+}
+
+/************ 
+* MAIN PAGE *
+*************/
+
+a {
+  color: #717744;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: 500;
+  color: #373d20;
+}
+
+a:visited {
+  color: none;
+}
+
+body {
+  background-color: bisque;
+}
+
+.main-heading {
+  color: black;
+  font-family: "Garamond", "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+  font-size: 80px;
+  font-weight: bold;
+  text-decoration: underline;
+  width: fit-content;
+  margin: 5% auto 50px;
+}
+
+.recipes-list {
+  list-style-type: upper-roman;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.recipe-list-item {
+  margin: 10px 0;
+}
+
+/**************** 
+* RECIPES PAGES *
+*****************/
+
+figcaption{
+    font-size: 12px;
+    font-style: italic;
+}
+
+figure{
+    width: fit-content;
+    margin: 5% auto 50px;
+}
+
+img{
+    height: 400px;
+    width: 601px;
+}
+
+h1{
+    color: black;
+    font-family: "Garamond", "Franklin Gothic Medium", "Arial Narrow", Arial,
+      sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: underline;
+    width: fit-content;
+    margin: 5% auto 50px; 
+}
+
+.main-page-link{
+    /* display: block;
+    text-align: end; */
+    margin: 0 0 0 100%;
 }
