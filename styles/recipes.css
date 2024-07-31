@@ -1,0 +1,59 @@
+/**************** 
+* RECIPES PAGES *
+*****************/
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+body > * {
+  width: 40vw;
+}
+
+figcaption {
+  font-size: 12px;
+  font-style: italic;
+}
+
+figure {
+  width: fit-content;
+}
+
+h1, h2{
+  color: black;
+  font-family: "Garamond", "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 40px;
+  text-decoration: underline;
+  width: fit-content;
+  margin: 20px auto 0px;
+}
+
+h2{
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+img {
+  height: 400px;
+  width: 601px;
+  border-radius: 2%;
+}
+
+ol, ul{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.main-page-link {
+
+  align-self: flex-end;
+}
