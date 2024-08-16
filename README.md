@@ -1,4 +1,4 @@
-# odin_recipes
+# Odin Recipes
 
 First project of the Foundation course of The Odin Project.
 
